@@ -33,8 +33,8 @@ set colored-completion-prefix On
 # Color the common prefix in menu-complete
 set menu-complete-display-prefix On
 
-source $HOME/powerlevel10k/powerlevel10k.zsh-theme
+source $HOME/.zsh/powerlevel10k/powerlevel10k.zsh-theme
 
-if [[ ! -f ~/.p10k.zsh ]]; then
+if [[ -f ~/.p10k.zsh ]]; then
   source ~/.p10k.zsh
 fi
