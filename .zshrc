@@ -33,8 +33,14 @@ set colored-completion-prefix On
 # Color the common prefix in menu-complete
 set menu-complete-display-prefix On
 
+# Load theme: PowerLevel10k
 source $HOME/.zsh/powerlevel10k/powerlevel10k.zsh-theme
-
 if [[ -f ~/.p10k.zsh ]]; then
   source ~/.p10k.zsh
 fi
+
+# Turn on autocompletion
+autoload -Uz compinit
+compinit
+zstyle ':completion:*' menu select
+
