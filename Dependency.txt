@@ -1,5 +1,4 @@
 zsh
 zsh-completions
 git
-ttf-meslo-nerd-font-powerlevel10k
 rubygems
