@@ -52,8 +52,8 @@ autoload -Uz compinit
 compinit
 zstyle ':completion:*' menu select
 
-# zsh-syntex-highlighting plugin
-source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# fast-syntax-highlighting plugin
+source $HOME/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 
 # ssh plugin (auto completion)
 source $HOME/.zsh/ssh/ssh.plugin.zsh
