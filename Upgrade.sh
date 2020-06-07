@@ -5,9 +5,11 @@ if [[ ! -f $(which yay) ]]; then
     exit
 fi
 
-for i in $(cat Dependency.txt); do
-    yay -S --noconfirm --needed $i
-done
+if [[ $1 == "install" ]]; then
+    for i in $(cat Dependency.txt); do
+        yay -S --noconfirm --needed $i
+    done
+fi
 
 git submodule update --remote --recursive --init --depth 1
 
