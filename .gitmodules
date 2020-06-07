@@ -6,3 +6,7 @@
 	path = zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
 	shallow = true
+[submodule "ssh"]
+	path = ssh
+	url = https://github.com/zpm-zsh/ssh
+	shallow = true

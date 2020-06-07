@@ -55,3 +55,6 @@ zstyle ':completion:*' menu select
 # zsh-syntex-highlighting plugin
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# ssh plugin (auto completion)
+source $HOME/.zsh/ssh/ssh.plugin.zsh
+
