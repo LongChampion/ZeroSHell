@@ -44,3 +44,6 @@ autoload -Uz compinit
 compinit
 zstyle ':completion:*' menu select
 
+# zsh-syntex-highlighting plugin
+source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
