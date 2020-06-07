@@ -1,9 +1,17 @@
 [[ $- != *i* ]] && return
 
+# Update $PATH
+export PATH=$PATH:$HOME/.gem/ruby/2.7.0/bin
+
 # Colorize some commands
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
+alias ll='colorls -l'
+alias la='colorls -A'
+alias lg='colorls --gs'
+alias lt='colorls --tree'
+alias lr='colorls --report'
 
 # Set input method for application
 export TERM=xterm-256color

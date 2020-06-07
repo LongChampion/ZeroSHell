@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-ZSH_HOME=$HOME/.zsh/
+ZSH_HOME=$HOME/.zsh
 
 if [[ -f $ZSH_HOME/.zprofile ]]; then
     cp -v $ZSH_HOME/.zprofile $HOME

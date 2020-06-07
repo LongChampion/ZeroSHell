@@ -11,6 +11,10 @@ if [[ $1 == "install" ]]; then
     done
 fi
 
+if [[ ! -f $(which colorls) ]]; then
+    gem install colorls
+fi
+
 git submodule update --remote --recursive --init --depth 1
 
 ./Restore.zsh
