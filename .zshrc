@@ -1,6 +1,7 @@
 [[ $- != *i* ]] && return
 
 # Update $PATH
+export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.gem/ruby/2.7.0/bin
 
 # Colorize some commands
