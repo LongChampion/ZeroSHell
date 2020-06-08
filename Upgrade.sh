@@ -23,8 +23,11 @@ else
 fi
 echo
 
-echo -e "\e[1;33m[*] \e[0;32mInstalling Meslo-Nerd-Font-Regular-Complete font\e[0m"
+echo -e "\e[1;33m[*] \e[0;32mInstalling Meslo-Nerd-Font-Complete font\e[0m"
 wget https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/Meslo/L-DZ/Regular/complete/Meslo%20LG%20L%20DZ%20Regular%20Nerd%20Font%20Complete.ttf
+wget https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/Meslo/L-DZ/Bold/complete/Meslo%20LG%20L%20DZ%20Bold%20Nerd%20Font%20Complete.ttf
+wget https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/Meslo/L-DZ/Italic/complete/Meslo%20LG%20L%20DZ%20Italic%20Nerd%20Font%20Complete.ttf
+wget https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/Meslo/L-DZ/Bold-Italic/complete/Meslo%20LG%20L%20DZ%20Bold%20Italic%20Nerd%20Font%20Complete.ttf
 sudo mv ./*.ttf /usr/share/fonts/TTF/
 echo
 
