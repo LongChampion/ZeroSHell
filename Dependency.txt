@@ -2,3 +2,4 @@ zsh
 zsh-completions
 git
 rubygems
+ttf-nerd-fonts-symbols-mono
