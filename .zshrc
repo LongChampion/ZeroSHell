@@ -54,6 +54,7 @@ fi
 # Turn on autocompletion
 autoload -Uz compinit
 compinit
+kitty + complete setup zsh | source /dev/stdin
 zstyle ':completion:*' menu select
 
 # fast-syntax-highlighting plugin
