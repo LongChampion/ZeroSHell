@@ -3,6 +3,9 @@
 # Fix wired bug when press Delete
 bindkey "^[[3~" delete-char
 
+# Modify "newline" character
+export PROMPT_EOL_MARK=''
+
 # Update $PATH
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.gem/ruby/2.7.0/bin
