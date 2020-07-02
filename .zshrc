@@ -13,12 +13,26 @@ export PATH=$PATH:$HOME/.gem/ruby/2.7.0/bin
 # Colorize some commands
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
+alias ip='ip -color=auto'
 alias ls='ls --color=auto'
 alias ll='colorls -l'
 alias la='colorls -A'
 alias lg='colorls --gs'
 alias lt='colorls --tree'
 alias lr='colorls --report'
+
+# Color manpage
+man() {
+    LESS=-R \
+    LESS_TERMCAP_mb=$'\e[1;31m' \
+    LESS_TERMCAP_md=$'\e[01;36m' \
+    LESS_TERMCAP_me=$'\e[0m' \
+    LESS_TERMCAP_so=$'\e[01;44;33m' \
+    LESS_TERMCAP_se=$'\e[0m' \
+    LESS_TERMCAP_us=$'\e[01;32m' \
+    LESS_TERMCAP_ue=$'\e[0m' \
+    command man "$@"
+}
 
 # Set input method for application
 export TERM=xterm-256color
