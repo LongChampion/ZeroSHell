@@ -15,11 +15,9 @@ alias diff='diff --color=auto'
 alias grep='grep --color=auto'
 alias ip='ip -color=auto'
 alias ls='ls --color=auto'
-alias ll='colorls -l'
-alias la='colorls -A'
-alias lg='colorls --gs'
-alias lt='colorls --tree'
-alias lr='colorls --report'
+alias ll='lsd -l'
+alias la='lsd -A'
+alias lt='lsd --tree'
 
 # Color manpage
 man() {

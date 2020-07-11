@@ -15,14 +15,6 @@ if [[ $1 == "install" ]]; then
 fi
 echo
 
-echo -e "\e[1;33m[*] \e[0;32mUpdating colorls ...\e[0m"
-if [[ ! -f $(which colorls) ]]; then
-    gem install colorls
-else
-    gem update colorls
-fi
-echo
-
 echo -e "\e[1;33m[*] \e[0;32mUpdating all sub-repository ...\e[0m"
 git submodule update --remote --recursive --init --depth 1
 echo
