@@ -78,3 +78,7 @@ source $HOME/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 # ssh plugin (auto completion)
 source $HOME/.zsh/ssh/ssh.plugin.zsh
 
+# fzf
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
+

@@ -3,3 +3,4 @@ zsh-completions
 git
 lsd
 nerd-fonts-fira-code
+fzf
