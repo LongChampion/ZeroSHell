@@ -8,7 +8,7 @@ export PROMPT_EOL_MARK=''
 
 # Update $PATH
 export PATH=$PATH:$HOME/.local/bin
-export PATH=$PATH:$HOME/.gem/ruby/2.7.0/bin
+export PATH=$PATH:$HOME/.gem/ruby/3.0.0/bin
 
 # Colorize some commands
 alias diff='diff --color=auto'
