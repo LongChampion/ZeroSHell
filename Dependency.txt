@@ -2,5 +2,4 @@ zsh
 zsh-completions
 git
 lsd
-nerd-fonts-source-code-pro
 fzf
