@@ -14,6 +14,3 @@ if [[ -f $HOME/.p10k.zsh ]]; then
     cp -v $HOME/.p10k.zsh $ZSH_HOME
 fi
 
-if [[ -f $HOME/.xinitrc ]]; then
-    cp -v $HOME/.xinitrc $ZSH_HOME
-fi
